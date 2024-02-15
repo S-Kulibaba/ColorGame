@@ -1,0 +1,69 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-block {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    width: 600px;
+    height: 624px;
+}
+
+.points-counter {
+    font-size: large;
+    display: flex;
+}
+
+.points-text {
+    margin-right: 10px;
+}
+
+.first-line {
+    display: flex;
+    border: 2px solid;
+}
+
+.middle-line {
+    display: flex;
+    border: 2px solid;
+}
+
+.bottom-line {
+    display: flex;
+    border: 2px solid;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
+
+/* colors */
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* techical */
+
+.invisible {
+    background-color: white;
+}
